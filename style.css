@@ -15,7 +15,7 @@
 
 body {
   font-family: "Barlow Semi Condensed", sans-serif;
-  font: 13px;
+  font-size: 13px;
   background-color: hsl(210, 46%, 95%);
   /* height: 100vh; */
   display: grid;
@@ -27,8 +27,8 @@ body {
 .container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
-  width: 600;
+  gap: 1rem;
+  width: 800px;
   max-width: 100%;
 }
 
